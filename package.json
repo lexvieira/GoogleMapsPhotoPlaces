@@ -13,11 +13,13 @@
   "nodemonConfig": {
     "ignore": [
       "test/*",
-      "docs/*"
+      "docs/*",
+      "./src/data/"
     ],
     "watch": [
       "server.js",
-      "./src"
+      "./src",
+      ".env"
     ],
     "ext": "js json ts"
   },
